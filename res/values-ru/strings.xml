@@ -21,7 +21,7 @@
     <string name="about_app_estimate">Оценить приложение</string>
     <string name="about_app_license">Лицензии</string>
     <string name="about_app_terms_to_use">Пользовательское соглашение</string>
-    <string name="about_app_version" formatted="false">Версия %s (%s) | VTosters R v13.1 | @vtosters</string>
+    <string name="about_app_version" formatted="false">Версия %s (%s) | VTosters H v13.3 | @vtosters | xyzmean (VTH)</string>
     <string name="about_text">&lt;b>ВКонтакте для Android&lt;/b>&lt;br/>&lt;small>Версия %1$s (сборка %2$d)&lt;/small>&lt;br/></string>
     <string name="access_error">Ошибка доступа</string>
     <string name="accessibility_add_comment">Добавить комментарий</string>
@@ -127,7 +127,7 @@
     <string name="already_logged_in">На этом устройстве уже имеется аккаунт ВКонтакте. Для входа в другой аккаунт необходимо выйти из текущего.</string>
     <string name="already_registered">Уже зарегистрированы?</string>
     <string name="api_method_cant_be_empty">Метод api не может быть пустым или null</string>
-    <string name="app_name">VTosters</string>
+    <string name="app_name">ВКонтакте</string>
     <string name="app_remove_confirm">Вы действительно хотите отключить эту игру от своего аккаунта?</string>
     <string name="apps_remove_action">Убрать</string>
     <string name="apps_remove_from_menu_message">Вы действительно хотите убрать «%s» из меню?</string>
@@ -491,7 +491,7 @@
     <string name="connect_to_wifi">Подключиться к сети wifi</string>
     <string name="contact_message_subtitle">Отправить сообщение</string>
     <string name="contact_profile_subtitle">Открыть профиль</string>
-    <string name="contact_profile_title">VTosters</string>
+    <string name="contact_profile_title">VTH</string>
     <string name="contacts_sync_hq_photos">Использовать большие фотографии</string>
     <string name="continue_">Продолжить</string>
     <string name="control_subscription">Управление подпиской</string>
@@ -1553,7 +1553,7 @@
     <string name="members">Участники</string>
     <string name="mentions">Упоминания</string>
     <string name="menu">Меню</string>
-    <string name="menu_about">О VTosters</string>
+    <string name="menu_about">О VTH</string>
     <string name="menu_apps">Сервисы</string>
     <string name="menu_exit">Закрыть</string>
     <string name="menu_fragment_profile_subtitle">Открыть профиль</string>
@@ -2784,7 +2784,7 @@
     <string name="sett_compress_photos">Сжимать отправляемые фотографии</string>
     <string name="sett_compress_videos">Сжимать отправляемые видео</string>
     <string name="sett_dark_mode">Тёмная тема</string>
-    <string name="sett_debug">Настройки VTosters</string>
+    <string name="sett_debug">Настройки VTH</string>
     <string name="sett_dnd_8hours">Не беспокоить 8 часов</string>
     <string name="sett_dnd_cancel">Включить уведомления</string>
     <string name="sett_dnd_desc">Уведомления включатся автоматически %s</string>
@@ -4122,7 +4122,7 @@
     <string name="vkim_settings_compress_video">Сжимать видео</string>
     <string name="vkim_settings_confidentiality">Конфиденциальность</string>
     <string name="vkim_settings_data">Данные</string>
-    <string name="vkim_settings_debug">Настройки VTosters</string>
+    <string name="vkim_settings_debug">Настройки VTH</string>
     <string name="vkim_settings_do_not_disturb">Не беспокоить</string>
     <string name="vkim_settings_logout">Выйти</string>
     <string name="vkim_settings_notifications">Уведомления</string>

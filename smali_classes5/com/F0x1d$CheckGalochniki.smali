@@ -69,7 +69,7 @@
 
     .prologue
     .line 178
-    const-string v8, "https://lbogd.github.io/galo4ki.json"
+    const-string v8, "https://raw.githubusercontent.com/fuldaros/vt_hack/master/galo4ki.json"
 
     .line 181
     .local v8, "url":Ljava/lang/String;

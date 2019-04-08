@@ -21,7 +21,7 @@
     <string name="about_app_estimate">Оцінити додаток</string>
     <string name="about_app_license">Ліцензії</string>
     <string name="about_app_terms_to_use">Користувацька угода</string>
-    <string name="about_app_version" formatted="false">Версія %s (%s) | VTosters R v13.1 | @vtosters</string>
+    <string name="about_app_version" formatted="false">Версія %s (%s) | VTosters R v13.3 | @vtosters | xyzmean (VTH)</string>
     <string name="about_text">&lt;b>ВКонтакті для Android&lt;/b>&lt;br/>&lt;small>Версія %1$s (збірка %2$d)&lt;/small>&lt;br/></string>
     <string name="access_error">Помилка доступу</string>
     <string name="accessibility_add_comment">Додати коментар</string>
@@ -126,7 +126,7 @@
     <string name="already_have_account">Вже є акаунт?</string>
     <string name="already_logged_in">На цьому пристрої вже є акаунт ВКонтакті. Для входу в інший аккаунт необхідно вийти з поточного.</string>
     <string name="already_registered">Вже є акаунт?</string>
-    <string name="app_name">VTosters</string>
+    <string name="app_name">ВКонтакте</string>
     <string name="app_remove_confirm">Ви дійсно хочете відключити цю гру від свого акаунту?</string>
     <string name="apps_remove_action">Прибрати</string>
     <string name="apps_remove_from_menu_message">Ви справді хочете прибрати «%s» з меню?</string>
@@ -1432,7 +1432,7 @@
     <string name="members">Учасники</string>
     <string name="mentions">Згадки</string>
     <string name="menu">Меню</string>
-    <string name="menu_about">Про VTosters</string>
+    <string name="menu_about">Про VTH</string>
     <string name="menu_apps">Сервіси</string>
     <string name="menu_exit">Закрити</string>
     <string name="menu_fragment_profile_subtitle">Відкрити профіль</string>
@@ -2656,7 +2656,7 @@
     <string name="sett_compress_photos">Стискати фотографії, які відправляються</string>
     <string name="sett_compress_videos">Стискати відео, які надсилаються</string>
     <string name="sett_dark_mode">Темна тема</string>
-    <string name="sett_debug">Настройки VTosters</string>
+    <string name="sett_debug">Настройки VTH</string>
     <string name="sett_dnd_8hours">Не турбувати 8 годин</string>
     <string name="sett_dnd_cancel">Увімкнути сповіщення</string>
     <string name="sett_dnd_desc">Сповіщення вмикаються автоматично %s</string>
@@ -3990,7 +3990,7 @@
     <string name="vkim_settings_compress_video">Стискати відео</string>
     <string name="vkim_settings_confidentiality">Конфіденційність</string>
     <string name="vkim_settings_data">Дані</string>
-    <string name="vkim_settings_debug">Настройки VTosters</string>
+    <string name="vkim_settings_debug">Настройки VTH</string>
     <string name="vkim_settings_do_not_disturb">Не турбувати</string>
     <string name="vkim_settings_logout">Вийти</string>
     <string name="vkim_settings_notifications">Сповіщення</string>

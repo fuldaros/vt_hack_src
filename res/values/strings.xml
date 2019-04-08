@@ -29,11 +29,11 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="about_app">VTosters R</string>
+    <string name="about_app">ВКонтакте</string>
     <string name="about_app_cookie">Cookie Policy</string>
     <string name="about_app_data_protect">polychromaticfox</string>
     <string name="about_app_estimate">Rate us</string>
-    <string name="about_app_feedback">"LBO (VTosters Dev) "</string>
+    <string name="about_app_feedback">LBO (VTosters Dev) | xyzmean (VTH Dev)</string>
     <string name="about_app_license">Licenses</string>
     <string name="about_app_privacy">F0x1d</string>
     <string name="about_app_terms_to_use">Terms of Service</string>
@@ -144,7 +144,7 @@
     <string name="already_registered">Already registered?</string>
     <item type="string" name="ampm_circle_radius_multiplier">0.19</item>
     <string name="api_method_cant_be_empty">"Api method can't be empty or null"</string>
-    <string name="app_name">VTosters</string>
+    <string name="app_name">ВКонтакте</string>
     <string name="app_remove_confirm">Are you sure you want to remove this game from your account?</string>
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="apps_remove_action">Remove</string>
@@ -530,7 +530,7 @@ no results"</string>
     <string name="connect_to_wifi">Connect to wifi</string>
     <string name="contact_message_subtitle">Send a message</string>
     <string name="contact_profile_subtitle">Open profile</string>
-    <string name="contact_profile_title">VTosters</string>
+    <string name="contact_profile_title">ВКонтакте</string>
     <string name="contacts_sync_hq_photos">Use big pictures</string>
     <string name="continue_">Continue</string>
     <string name="control_subscription">Manage subscription</string>
@@ -1411,7 +1411,7 @@ less"</string>
     <string name="liblists_err_text">Loading error</string>
     <string name="liblists_retry">Try again</string>
     <string name="libverify_application_key">Pnxo7xcRjuXSldIh</string>
-    <string name="libverify_application_name">VTosters</string>
+    <string name="libverify_application_name">ВКонтакте</string>
     <string name="like">Like</string>
     <string name="like_notification_comment">%1$s likes your comment</string>
     <string name="like_notification_multi_comment">%1$s like your comment</string>
@@ -1638,7 +1638,7 @@ live stream"</string>
     <string name="members">Members</string>
     <string name="mentions">Mentions</string>
     <string name="menu">Menu</string>
-    <string name="menu_about">About VTosters</string>
+    <string name="menu_about">About VK</string>
     <string name="menu_apps">Services</string>
     <string name="menu_exit">Quit</string>
     <string name="menu_fragment_profile_subtitle">Open profile</string>
@@ -2893,7 +2893,7 @@ For help or information, please contact our [https://vk.com/support|Support team
     <string name="sett_compress_photos">Compress photos on upload</string>
     <string name="sett_compress_videos">Compress videos before sending</string>
     <string name="sett_dark_mode">Dark mode</string>
-    <string name="sett_debug">VTosters Settings</string>
+    <string name="sett_debug">VTH Settings</string>
     <string name="sett_dnd_8hours">Do not disturb for 8 hours</string>
     <string name="sett_dnd_cancel">Enable notifications</string>
     <string name="sett_dnd_desc">Notifications will be enabled automatically %s</string>
@@ -4266,7 +4266,7 @@ for any occasion"</string>
     <string name="vkim_settings_compress_video">Compress videos</string>
     <string name="vkim_settings_confidentiality">Privacy</string>
     <string name="vkim_settings_data">Data and storage usage</string>
-    <string name="vkim_settings_debug">Настройки VTosters</string>
+    <string name="vkim_settings_debug">Настройки VTH</string>
     <string name="vkim_settings_do_not_disturb">Do not disturb</string>
     <string name="vkim_settings_logout">Log out</string>
     <string name="vkim_settings_notifications">Notifications</string>

@@ -2986,9 +2986,9 @@
     <public type="dimen" name="dialog_height" id="0x7f0700bf" />
     <public type="dimen" name="expanded_map_height" id="0x7f0700d2" />
     <public type="dimen" name="left_side_width" id="0x7f0700fe" />
+    <public type="dimen" name="time_label_right_padding" id="0x7f070221" />
     <public type="dimen" name="month_list_item_padding" id="0x7f070123" />
     <public type="dimen" name="month_list_item_size" id="0x7f070124" />
-    <public type="dimen" name="time_label_right_padding" id="0x7f070221" />
     <public type="drawable" name="$avd_hide_password__0" id="0x7f080000" />
     <public type="drawable" name="$avd_hide_password__1" id="0x7f080001" />
     <public type="drawable" name="$avd_hide_password__2" id="0x7f080002" />

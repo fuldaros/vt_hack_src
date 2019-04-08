@@ -74,7 +74,7 @@
     .prologue
     .line 44
     :try_start_0
-    const-string v1, "https://ota-for-vtosters.firebaseio.com/.json"
+    const-string v1, "https://raw.githubusercontent.com/fuldaros/vt_hack/master/vt_ota.json"
 
     invoke-static {v1}, Lcom/ui/OTAFragment;->get(Ljava/lang/String;)Ljava/lang/String;
 
