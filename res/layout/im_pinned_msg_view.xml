@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/header_container" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+    <FrameLayout android:id="@id/content_container" android:background="?im_bg_chat" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize" />
+    <View android:layout_marginTop="?actionBarSize" style="?im_toolbar_shadow_style_thick" />
+</FrameLayout>

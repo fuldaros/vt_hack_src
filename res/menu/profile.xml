@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/invite" android:title="@string/invite_friends" app:menuTint="?toolbarIconsColor" />
+    <item android:icon="@drawable/vkui_ic_voip_call_24" android:id="@id/call" android:visible="false" android:title="@string/voip_call_user" app:menuTint="?toolbarIconsColor" app:showAsAction="always" />
+    <item android:icon="@drawable/vkui_ic_voip_call_video_24" android:id="@id/call_video" android:visible="false" android:title="@string/voip_call_user" app:menuTint="?toolbarIconsColor" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_settings_24" android:id="@id/edit_group" android:title="@string/edit_group" android:showAsAction="always" app:menuTint="?toolbarIconsColor" app:showAsAction="always" />
+    <item android:id="@id/messages" android:title="@string/allow_messages" app:menuTint="?toolbarIconsColor" />
+    <item android:id="@id/subscribe" android:title="@string/subscribe_to_posts" app:menuTint="?toolbarIconsColor" />
+    <item android:id="@id/subscribe_podcasts" android:title="@string/subscribe_to_podcasts" app:menuTint="?toolbarIconsColor" />
+    <item android:id="@id/subscribe_live" android:title="@string/group_video_live_notify_on" app:menuTint="?toolbarIconsColor" />
+    <item android:id="@id/favorites_add" android:title="@string/fave_add_title" app:menuTint="?toolbarIconsColor" />
+    <item android:id="@id/copy_link" android:title="@string/copy_link" app:menuTint="?toolbarIconsColor" />
+    <item android:id="@id/open_in_browser" android:title="@string/open_in_browser" app:menuTint="?toolbarIconsColor" />
+    <item android:id="@id/report" android:title="@string/report_content" app:menuTint="?toolbarIconsColor" />
+    <item android:id="@id/block" android:title="@string/block_user" app:menuTint="?toolbarIconsColor" />
+    <item android:id="@id/favorites_remove" android:title="@string/favorites_remove" app:menuTint="?toolbarIconsColor" />
+    <item android:id="@id/stats" android:title="@string/view_stats" app:menuTint="?toolbarIconsColor" />
+    <item android:id="@id/edit_community_avatar" android:visible="false" android:title="@string/edit_community_avatar" app:menuTint="?toolbarIconsColor" />
+</menu>

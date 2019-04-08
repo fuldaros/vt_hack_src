@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="?background_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:navigationContentDescription="@string/accessibility_auth_back" app:navigationIcon="@drawable/ic_back_24" app:titleTextColor="?header_text_alternate" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sign_up_enter_name_title" android:includeFontPadding="false" style="@style/Auth.Title.Primary" />
+        <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginBottom="11.0dip" android:text="@string/sign_up_enter_name_description" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="@style/Auth.Title.Secondary" />
+        <include android:layout_gravity="center_horizontal" android:layout_width="96.0dip" android:layout_height="96.0dip" android:layout_marginTop="10.0dip" layout="@layout/circle_avatar_layout" />
+        <EditText android:id="@id/first_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:hint="@string/sign_up_first_name" android:inputType="textCapWords" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/VKUIEditText" />
+        <EditText android:id="@id/last_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:hint="@string/sign_up_last_name" android:inputType="textCapWords" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/VKUIEditText" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <Button android:id="@id/gender_male" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/sign_up_gender_male" android:layout_weight="1.0" style="@style/VKUIButton.Selectable" />
+            <Button android:id="@id/gender_female" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/sign_up_gender_female" android:layout_weight="1.0" android:layout_marginStart="8.0dip" style="@style/VKUIButton.Selectable" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:textSize="16.0sp" android:id="@id/continue_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/auth_continue" style="@style/VKUIButton.Primary.Flat" />
+    </LinearLayout>
+</ScrollView>

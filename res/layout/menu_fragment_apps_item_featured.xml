@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_featured_services" android:layout_width="wrap_content" android:layout_height="84.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.vk.menu.StackedAppsView android:layout_gravity="center_vertical" android:id="@id/icons" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="?text_primary" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lineSpacingExtra="6.0sp" android:fontFamily="@font/roboto_medium" />
+        <TextView android:textColor="?text_subhead" android:ellipsize="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="2" android:fontFamily="@font/roboto_regular" style="@style/VKUIText.New.Caption1" />
+    </LinearLayout>
+</LinearLayout>

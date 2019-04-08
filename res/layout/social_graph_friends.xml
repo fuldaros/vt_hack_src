@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="?background_content" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:background="?background_content" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior" style="@style/VKAppBar">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:navigationContentDescription="@string/accessibility_toolbar_back" app:navigationIcon="@drawable/ic_back_24" />
+    </android.support.design.widget.AppBarLayout>
+    <com.vk.core.view.AppBarShadowView android:layout_width="fill_parent" android:layout_height="12.0dip" />
+    <android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.vk.lists.RecyclerPaginatedView android:id="@id/rpb_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <Button android:textSize="16.0sp" android:id="@id/continue_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:text="@string/social_graph_continue" style="@style/VKUIButton.Primary.Flat" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

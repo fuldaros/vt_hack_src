@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="?background_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/collection_items_dialog_wrapper_appbar" android:background="?background_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="2.0dip">
+        <android.support.v7.widget.Toolbar android:id="@id/collection_items_dialog_wrapper_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:outlineProvider="bounds" app:layout_scrollFlags="enterAlways|scroll">
+            <android.support.v7.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@id/collection_items_dialog_wrapper_action" android:background="@drawable/vkim_ripple_circle_highlight" android:padding="12.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_check_24" android:tint="@color/cool_grey" android:layout_marginEnd="4.0dip" />
+        </android.support.v7.widget.Toolbar>
+        <FrameLayout android:id="@id/collection_items_dialog_wrapper_subholder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout android:id="@id/collection_items_dialog_wrapper_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

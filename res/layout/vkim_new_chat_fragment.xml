@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="?background_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:id="@id/im_appbar" android:layout_height="?actionBarSize" style="@style/Vk.Theme.Appbar">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" style="@style/VkIm.Toolbar.Style" />
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout android:id="@id/vkim_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <View app:layout_behavior="@string/appbar_scrolling_view_behavior" style="?im_toolbar_shadow_style_thick" />
+    <com.vk.core.view.BottomConfirmButton android:layout_gravity="bottom" android:id="@id/vkim_confirm_btn" android:layout_width="fill_parent" android:layout_height="48.0dip" app:bcb_cancel_bg_color="?button_muted_background" app:bcb_cancel_text="@string/cancel" app:bcb_cancel_text_color="?button_muted_foreground" app:bcb_send_bg_color="?button_primary_background" app:bcb_send_text="@string/vkim_create_chat" app:bcb_send_text_color="?button_primary_foreground" app:bcb_text_all_caps="false" />
+</android.support.design.widget.CoordinatorLayout>
